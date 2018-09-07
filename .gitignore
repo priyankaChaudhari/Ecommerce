@@ -1,0 +1,10 @@
+# Virtual Env
+
+bin/
+lib/
+share/
+include/
+
+# Logs
+
+pip-selfcheck.json
