@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from .user.views import (SignupView)
+from user.views import SignupView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^signup/', SignupView.as_view()),
+    #    url(r'^blog(?P<pk>\d+)/$', BlogPostRudView.as_view())
 ]
